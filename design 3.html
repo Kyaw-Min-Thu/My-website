@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/* First div */
+    .main-div{
+        width:1200px;
+        margin:0 auto;
+    }
+    .first-div{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: rgb(235, 195, 143);
+        height:360px;
+        padding:20px;
+    }
+    .f-paragaph-div{
+       align-self: center;
+       width:450px
+    }
+
+    .f-img-div{
+       justify-self:end;
+    }
+    .f-img{
+        width: 350px;
+        height:350px;
+    }
+
+/* Main 3 div */
+    .main-3-div{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+/* 2girls div */
+    .two-girls-pig{
+        width:360px;
+        height:280px;
+    }
+    .two-girls-div{
+        display:grid;
+        grid-template-columns:400px 800px;
+        margin-top:50px
+    }
+    .two-girls-paragraph-div{
+        align-self: center;
+    }
+/* Best selling chairs */
+    .chairs-pig{
+        width:350px;
+        height:230px;
+    }
+    .best-selling-chairs{
+        display:grid;
+        grid-template-columns:400px 400px 400px;
+    }
+    .bsc-h2{
+        margin:50px 0;
+    }
+    .best-selling-chairs h3{
+        text-align: center ;
+    }
+    .bsc-img2{
+        justify-self: center;
+    }
+    .bsc-img3{
+        justify-self: end;
+    }
+/* t-p-did */
+    .three-paragraph-div{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .font-p{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .tttt{
+        margin-left:60px;
+    }
+
+    .f-t-p-d{
+        width:400px;
+        justify-self:center
+    }
+    .Add-to-card{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+    }
+    .footer{
+        height:40px;
+        background-color:rgba(0, 0, 0, 0.447);
+        padding:20px 0;
+    }
+</style>
+<body>
+<!-- First div -->
+    <div class="main-div">
+        <div class="first-div">
+            <div class="f-paragaph-div">
+                <h2>We design and build better chairs, for a better life</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Id doloribus magni vitae esse facilis ipsam, optio fuga adipisci voluptas qui inventore iste ab! Iste,
+                    debitis harum velit doloremque possimus dolores?
+                </p>
+
+                <button><a href="https://www.youtube.com">Shop shoe</a></button>
+            </div>
+            <div class="f-img-div">
+                <img class="f-img"src="f-pig.jpg" alt="f-img">
+            </div>
+        </div>
+        
+        <h3>What makes our chairs special</h3>
+
+        <div class="main-3-div">
+            <div>
+                <h4>Sceince meets design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt nemo quasi, , sit odit asperiores autem! Aliquam distinctio soluta quae.</p>
+            </div>
+            <div>
+                <h4>Maximal comfort</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt nemo quasi, , sit odit asperiores autem! Aliquam distinctio soluta quae.</p>
+            </div>
+            <div>
+                <h4>Ethical and sustainable</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt nemo quasi, , sit odit asperiores autem! Aliquam distinctio soluta quae.</p>
+                
+            </div>
+        </div>
+
+        <div class="two-girls-div">
+            <img class="two-girls-pig" src="2girls.jpg" alt="2girl">
+            <div class="two-girls-paragraph-div">
+                <h3>"We couldn't live without these chairs anymore"</h3>
+                <p>Lorem ipsum, dolor sit ametdebitis debitis harum velit doloremque possimus dolores?debitis harum velit doloremque possimus dolores?harum velit doloremque possimus dolores? consectetur adipisicing elit. Voluptatibus, natus dicta sit, quod aperiam alias perspiciatis molestias quaerat distinctio, exercitationem excepturi et vero dolorem autem aliquam! Cumque,, officiis?</p>
+                <p>--Mary and Sarah Jognson--</p>
+            </div>
+        </div>
+<!-- Best selling chair -->
+        <h2 class="bsc-h2">Our best selling chairs</h2>
+
+        <div class="best-selling-chairs">
+            <div class="bsc-img">
+                <img class="chairs-pig" src="f-pig.jpg" alt="chairs">
+                <h3>The Laid Back</h3>
+            </div>
+            <div class="bsc-img bsc-img2">
+                <img class="chairs-pig bsc-img2" src="s-pig.jpg" alt="chairs">
+                <h3>The worker Bee</h3>
+            </div>
+            <div class="bsc-img bsc-img3">
+                <img class="chairs-pig bsc-img3" src="sofa.jpg" alt="chairs">
+                <h3>The Chair 4/2</h3>
+            </div>
+        </div>
+
+        <div class="best-selling-chairs">
+            <div class="bsc-img">
+                <img class="chairs-pig" src="f-pig.jpg" alt="chairs">
+                <h3>The Laid Back</h3>
+            </div>
+            <div class="bsc-img bsc-img2">
+                <img class="chairs-pig bsc-img2" src="s-pig.jpg" alt="chairs">
+                <h3>The worker Bee</h3>
+            </div>
+            <div class="bsc-img bsc-img3">
+                <img class="chairs-pig bsc-img3" src="sofa.jpg" alt="chairs">
+                <h3>The Chair 4/2</h3>
+            </div>
+        </div>
+<!-- three-paragraph-div -->
+        <div class="three-paragraph-div">
+            <div class="f-t-p-d">
+                <p class="font-p">The Laid Back</p>
+                <p>Leisure and relaxin</p>
+                <p>Comfortable for 4h</p>
+                <p>Vegan leather</p>
+                <p>Weight 16 kg</p>
+                <div class="Add-to-card">
+                    <p class="bold-p">250$</p>
+                    <a href="https://www.youtube.com">Add to card</a>
+                </div>
+            </div>
+            <div class="s-t-p-d tttt">
+                <p class="font-p ">The Work Bee</p>
+                <p>Work</p>
+                <p>Comfortable for 8h</p>
+                <p>Vegan leather</p>
+                <p>Weighs 22kg</p>
+                <div class="Add-to-card">
+                    <p class="bold-p">525$</p>
+                    <a href="https://www.youtube.com">Add to card</a>
+                </div>
+            </div>
+            <div class="t-t-p-d tttt">
+                <p class="font-p">The Chaif 4/2</p>
+                <p> Leisure and relaxing</p>
+                <p>Vegan leather</p>
+                <p>Weighs 22kg</p>
+                <p>Leisure and relaxin</p>
+                <div class="Add-to-card">
+                    <p class="bold-p">1450$</p>
+                    <a href="https://www.youtube.com">Add to card</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright &copy; 2027 by Jonas Schmedtmann. Part of "Build Responsive Real-World Websites with HTML and CSS* onlinr course. Use for Learning purposes only.</p>
+        </div>
+    </div>
+</body>
+</html>
